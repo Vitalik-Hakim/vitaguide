@@ -48,7 +48,6 @@ scipy==1.10.1; python_version < '3.12' and python_version >= '3.8'
 
 sqlalchemy==2.0.23; python_version >= '3.7'
 
-gunicorn==21.2.0
 
 threadpoolctl==3.2.0; python_version >= '3.8'
 
