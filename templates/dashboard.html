@@ -1,0 +1,219 @@
+<!-- dashboard.html -->
+
+{% extends 'base.html' %} {% block content %}
+
+<link
+  rel="stylesheet"
+  href="{{ url_for('static', filename='css/dashboard.css') }}"
+/>
+<nav class="menu-items-wrapper navbar">
+  <a class="navbar-logo" href="#">
+    <img src="../static/img/vitaguide.svg" alt="logo" />
+  </a>
+  <ul class="links">
+    <nav class="menu-items-wrapper navbar style-green">
+      <ul class="links">
+        <li class="menu-item active"><a href="/dashboard">Dashboard</a></li>
+        <li class="menu-item"><a href="/myhealth">My Health</a></li>
+        <li class="menu-item"><a href="/mynutrition">My Nutrition</a></li>
+        <li class="menu-item"><a href="/tracking">Vitamin Tracking</a></li>
+        <li class="menu-item"><a href="/quizzes">Fun Quizzes</a></li>
+        <li class="menu-item">
+          <a href="#">Streak⚡{{ current_user.user_streak}}</a>
+        </li>
+        <li class="menu-item">
+          <a href="#"
+            ><div class="dropdown-wrapper">
+              <!-- a button to toggle show/hide of dropdown -->
+              <button
+                id="my-dropdown-toggle"
+                class="button style-green dropdown-toggle"
+                aria-expanded="false"
+              >
+                Alerts
+                <span class="my-badge badge style-red edge-circle pulse"
+                  >3</span
+                >
+              </button>
+              <!-- dropdown: in this case a menu -->
+              <ul
+                class="dropdown menu-items-wrapper"
+                aria-labelledby="my-dropdown-toggle"
+              >
+                <li class="menu-item"><a href="#">Alerts</a></li>
+                <li role="separator" class="menu-item separator"></li>
+                <li class="menu-item">
+                  <a href="#">Welcome {{ current_user.first_name}}</a>
+                </li>
+                <li class="menu-item"><a href="/dashboard">Your Fruits</a></li>
+                <li class="menu-item"><a href="#">Keep the Streak!</a></li>
+                <!-- dropdown arrow which is optional -->
+                <li aria-hidden="true"><span class="pointer-arrow"></span></li>
+              </ul>
+            </div>
+          </a>
+        </li>
+        <li class="menu-item">
+          <a href="/profile"
+            >{{ current_user.first_name}} {{ current_user.last_name}}</a
+          >
+        </li>
+      </ul>
+    </nav>
+  </ul>
+</nav>
+
+<h1>Welcome {{ current_user.first_name }}!</h1>
+
+<h3>These are the fruits we recommend you eat for your GDA*</h3>
+{% with messages = get_flashed_messages(with_categories=true) %} {% if messages
+%} {% for category, message in messages %}
+<div class="toast style-green-light">{{ message }}</div>
+
+{% endfor %} {% endif %} {% endwith %}
+<div class="card-grid">
+  {% for fruit in preferred_fruits_data %}
+  <div class="fruitcard card">
+    <div class="imgBx">
+      <img src="{{ fruit.image_link }}" alt="" />
+      <button
+        class="button style-accent open-modal"
+        data-modal-target="#{{ fruit.name}}"
+      >
+        {{ fruit.name }}
+      </button>
+    </div>
+
+    <div
+      class="modal my-modal"
+      id="{{ fruit.name}}"
+      tabindex="-1"
+      aria-labelledby="my-modal-title"
+    >
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="my-modal-title">{{ fruit.name }}</h5>
+          <button
+            type="button"
+            class="close-modal close-button"
+            data-modal-target="#{{ fruit.name}}"
+            aria-label="Close"
+          ></button>
+        </div>
+        <div class="modal-body">
+          Vitamin C: <mark class="style-orange">{{ fruit.vitamin_c }}</mark
+          ><br />
+          Fat content:
+          <mark class="style-red">{{ fruit.fat_content }}</mark><br />
+          Protein: <mark class="style-accent">{{ fruit.protein }}</mark><br />
+          Preservation method:
+          <mark class="style-purple-light">{{ fruit.preservation_method }}</mark
+          ><br />
+          Medicinal Properties:
+          <mark class="style-green-light"
+            >{{ fruit.medicinal_properties|join(', ') }}</mark
+          ><br />
+          History: <mark class="style-red-light">{{ fruit.history }}</mark>
+        </div>
+        <div class="modal-footer">
+          <button class="button size-sm style-danger close-modal">Close</button>
+          <a class="button size-sm style-info close-modal">
+            Add to Fruits ❤️
+          </a>
+        </div>
+      </div>
+    </div>
+  </div>
+  {% endfor %}
+</div>
+
+<h3>Complete your Short Lessons!</h3>
+<div class="lesson-grid">
+  <div class="lesson-card card">
+    <h3>Benefits of Vitamin C</h3>
+    <div class="progress">
+      <div
+        class="progress-bar"
+        role="progressbar"
+        aria-valuenow="50"
+        aria-valuemin="0"
+        aria-valuemax="100"
+      ></div>
+    </div>
+    <a class="button style-purple" href="/quiz/Vitamin-C"> Start Lesson 20XP</a>
+  </div>
+
+  <!-- Repeat the structure for more lessons -->
+  <div class="lesson-card card">
+    <h3>Ohmic Heating at home</h3>
+    <div class="progress">
+      <div
+        class="progress-bar"
+        role="progressbar"
+        aria-valuenow="50"
+        aria-valuemin="0"
+        aria-valuemax="100"
+      ></div>
+    </div>
+    <a class="button style-purple" href="/quiz/Ohmic-Heating"
+      >Start Lesson 30XP</a
+    >
+  </div>
+
+  <div class="lesson-card card">
+    <h3>Benefits of Vitamin D</h3>
+    <div class="progress">
+      <div
+        class="progress-bar"
+        role="progressbar"
+        aria-valuenow="50"
+        aria-valuemin="0"
+        aria-valuemax="100"
+      ></div>
+    </div>
+    <a class="button style-purple" href="/quiz/Vitamin-D">Start Lesson 20XP</a>
+  </div>
+  <div class="lesson-card card">
+    <h3>Fruits General Knowledge</h3>
+    <div class="progress">
+      <div
+        class="progress-bar"
+        role="progressbar"
+        aria-valuenow="50"
+        aria-valuemin="0"
+        aria-valuemax="100"
+      ></div>
+    </div>
+    <a class="button style-purple" href="/quiz/Fruits-General-Quiz"
+      >Start Lesson 50XP</a
+    >
+  </div>
+</div>
+
+<script src="https://code.jquery.com/jquery-3.6.4.min.js"></script>
+<script>
+  $(document).ready(function () {
+    // Attach click event listener to a parent element
+    $(".card-grid").on("click", ".style-info", function () {
+      var fruitName = $(this).closest(".fruitcard").find(".modal-title").text();
+
+      $.ajax({
+        type: "POST",
+        url: "/add-to-favorites",
+        data: { fruit_name: fruitName },
+        success: function (response) {
+          // Handle success (optional)
+          console.log("Added to favorites!");
+          console.log(fruitName);
+        },
+        error: function (error) {
+          // Handle error (optional)
+          console.error("Failed to add to favorites:", error);
+          console.log(fruitName);
+        },
+      });
+    });
+  });
+</script>
+
+{% endblock %}

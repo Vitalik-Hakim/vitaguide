@@ -1,0 +1,87 @@
+{% extends 'base.html' %}{% block content %}
+<link
+  rel="stylesheet"
+  href="{{ url_for('static', filename='css/register.css') }}"
+/>
+<div id="duolingo-container">
+  <div id="header">VitaGuide</div>
+  <div id="form-container">
+    <h2>Sign Up</h2>
+    <form method="POST" action="{{ url_for('register') }}">
+      {% with messages = get_flashed_messages(with_categories=true) %} {% if
+      messages %} {% for category, message in messages %}
+      <div class="alert style-danger-light">{{ message }}</div>
+      {% endfor %} {% endif %} {% endwith %}
+      <div class="form-group">
+        <div class="input-wrapper">
+          <input
+            class="valid"
+            id="my-text-input"
+            type="text"
+            name="first_name"
+            placeholder="First Name"
+            required
+          />
+        </div>
+      </div>
+      <div class="form-group">
+        <div class="input-wrapper">
+          <input
+            class="valid"
+            id="my-text-input-1"
+            type="text"
+            name="last_name"
+            placeholder="Last Name"
+            required
+          />
+        </div>
+      </div>
+      <div class="form-group">
+        <div class="input-wrapper">
+          <input
+            class="valid"
+            id="my-text-input-1"
+            type="email"
+            name="email"
+            placeholder="Email"
+            required
+          />
+        </div>
+      </div>
+      <div class="form-group">
+        <div class="input-wrapper">
+          <input
+            class="valid"
+            id="my-text-input-1"
+            type="text"
+            name="username"
+            placeholder="Username"
+            required
+          />
+        </div>
+      </div>
+      <div class="form-group">
+        <div class="input-wrapper">
+          <input
+            class="valid"
+            id="my-text-input-1"
+            type="password"
+            name="password"
+            placeholder="Password"
+            required
+          />
+        </div>
+      </div>
+      <label class="checkbox-wrapper">
+        <input type="checkbox" checked required />
+        <span class="check"></span>
+        I Agree to Privacy Policy.
+      </label>
+      <button type="submit" class="button bounce">Sign Up</button>
+    </form>
+    <p>
+      Already have an account? <a href="{{ url_for('login') }}">Login here</a>
+    </p>
+  </div>
+</div>
+{% endblock %}

@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Duolingo Mimic</title>
+    <style>
+      body {
+        font-family: "Arial", sans-serif;
+        background-color: #f8f8f8;
+        margin: 0;
+        padding: 0;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100vh;
+      }
+
+      #duolingo-container {
+        background-color: #fff;
+        border-radius: 8px;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        overflow: hidden;
+        width: 300px;
+        max-width: 100%;
+        text-align: center;
+      }
+
+      #header {
+        background-color: #6cbf00;
+        color: #fff;
+        padding: 10px;
+        font-size: 20px;
+        font-weight: bold;
+      }
+
+      #lesson-container {
+        padding: 20px;
+      }
+
+      .button {
+        background-color: #6cbf00;
+        color: #fff;
+        padding: 10px 20px;
+        margin: 10px;
+        border: none;
+        border-radius: 5px;
+        cursor: pointer;
+        font-size: 16px;
+      }
+
+      .button:hover {
+        background-color: #5a9c00;
+      }
+
+      #progress-bar {
+        background-color: #e0e0e0;
+        height: 10px;
+        border-radius: 5px;
+        margin-top: 20px;
+        overflow: hidden;
+      }
+
+      #progress-bar-inner {
+        background-color: #6cbf00;
+        height: 100%;
+        transition: width 0.3s ease-in-out;
+      }
+    </style>
+  </head>
+  <body>
+    <div id="duolingo-container">
+      <div id="header">4Food</div>
+      <div id="lesson-container">
+        <p>Learn about a new fruit!</p>
+        <button class="button">Start Lesson</button>
+        <div id="progress-bar">
+          <div id="progress-bar-inner" style="width: 50%"></div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>

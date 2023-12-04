@@ -1,0 +1,105 @@
+@import url("https://fonts.googleapis.com/css?family=Lato&display=swap");
+
+body {
+  background: #e8ebf5;
+  flex: 1;
+  align-items: center;
+  justify-content: center;
+  margin: 0;
+  padding: 25px;
+  font-family: Lato;
+}
+
+.card-healthform {
+  background: #fff;
+  border-radius: 10px;
+  box-shadow: 0 0 5px rgba(255, 255, 255, 0.04588);
+}
+.card-header {
+  padding: 20px;
+  border-bottom: 1px solid #d5d0d0;
+}
+.card-header .steps {
+  display: flex;
+  column-count: 3;
+  justify-content: center;
+  align-items: center;
+}
+.card-header .steps .step {
+  width: 100%;
+  text-align: center;
+  border-bottom: 1px solid #877cdf;
+  line-height: 0.1em;
+  margin: 10px 0 20px;
+}
+.card-header .steps .step span {
+  padding: 10px 16px;
+  border: 1px solid #877cdf;
+  border-radius: 20px;
+  background: #fff;
+  box-shadow: 0px 3px 0px 0px #877cdf;
+}
+.card-header .steps .step.active span {
+  background: #a98bf9;
+  color: white;
+  border: 1px solid #a98bf9;
+}
+.card-body {
+  padding: 16px;
+  min-height: 250px;
+  display: flex;
+  justify-items: center;
+  align-items: center;
+}
+.card-body .tabs {
+  width: 100%;
+  height: 100%;
+  justify-content: center;
+  display: flex;
+  align-items: center;
+}
+.card-body .tabs .tab {
+  display: none;
+}
+.card-body .tabs .tab.active {
+  display: block !important;
+}
+.card-footer {
+  padding: 16px;
+  border-top: 1px solid #d5d0d0;
+}
+.card-footer button {
+  border-radius: 5px;
+  padding: 15px 25px;
+  width: 150px;
+  margin: 10px auto;
+  border: none;
+  border-radius: 0.085rem;
+  font-weight: 500;
+  font-size: 16px;
+  color: white;
+  background: #aa9ffe;
+  box-shadow: 0px 5px 0px 0px #877cdf;
+}
+.card-footer button:active {
+  outline: none;
+  transform: translate(0px, 5px);
+  -webkit-transform: translate(0px, 5px);
+  box-shadow: 0px 1px 0px 0px;
+}
+
+@media only screen and (max-width: 420px) {
+  .card-footer button {
+    width: 100%;
+  }
+}
+
+h1 {
+  color: #877cdf; /* Duolingo green */
+  text-align: center; /* Center the text */
+  margin-bottom: 20px; /* Add some bottom margin */
+  border: 2px solid #877cdf; /* Border color */
+  border-radius: 10px; /* Border radius */
+  padding: 10px; /* Add padding */
+  box-shadow: 0 0 10px rgba(47, 0, 78, 0.445); /* Box shadow */
+}

@@ -1,0 +1,507 @@
+{
+  "Apple": {
+    "image": "../static/img/fruits/apple.jpg",
+    "vitamin_c": "30mg",
+    "fat_content": "0.2g",
+    "protein": "0.5g",
+    "not_good_for": ["Diabetes"],
+    "preservation_method": "Refrigerate",
+    "precautions_on_overdose": "10 is an overdose",
+    "medicinal_properties": ["Rich in antioxidants", "Promotes heart health"],
+    "origin_history": "Originally from Central Asia, cultivated worldwide."
+  },
+  "Banana": {
+    "image": "../static/img/fruits/banana.jpg",
+    "vitamin_c": "10mg",
+    "fat_content": "0.3g",
+    "protein": "1.3g",
+    "not_good_for": ["None"],
+    "preservation_method": "Keep at room temperature",
+    "precautions_on_overdose": "None",
+    "medicinal_properties": ["Good source of potassium", "Aids digestion"],
+    "origin_history": "Indigenous to Southeast Asia."
+  },
+  "Orange": {
+    "image": "../static/img/fruits/orange.jpg",
+    "vitamin_c": "60mg",
+    "fat_content": "0.2g",
+    "protein": "1g",
+    "not_good_for": ["None"],
+    "preservation_method": "Refrigerate",
+    "precautions_on_overdose": "None",
+    "medicinal_properties": ["High in vitamin C", "Boosts immune system"],
+    "origin_history": "Native to Southeast Asia."
+  },
+  "Grapes": {
+    "image": "../static/img/fruits/grapes.jpg",
+    "vitamin_c": "2mg",
+    "fat_content": "0.2g",
+    "protein": "0.6g",
+    "not_good_for": ["None"],
+    "preservation_method": "Refrigerate",
+    "precautions_on_overdose": "None",
+    "medicinal_properties": ["Rich in antioxidants", "Promotes heart health"],
+    "origin_history": "Cultivated since ancient times."
+  },
+  "Strawberry": {
+    "image": "../static/img/fruits/strawberry.jpg",
+    "vitamin_c": "58mg",
+    "fat_content": "0.4g",
+    "protein": "0.7g",
+    "not_good_for": ["None"],
+    "preservation_method": "Refrigerate",
+    "precautions_on_overdose": "None",
+    "medicinal_properties": ["Rich in antioxidants", "Promotes skin health"],
+    "origin_history": "Cultivated in Europe since the 18th century."
+  },
+  "Mango": {
+    "image": "../static/img/fruits/mango.jpg",
+    "vitamin_c": "36mg",
+    "fat_content": "0.6g",
+    "protein": "0.8g",
+    "not_good_for": ["None"],
+    "preservation_method": "Ripen at room temperature",
+    "precautions_on_overdose": "None",
+    "medicinal_properties": ["Rich in vitamin A", "Supports eye health"],
+    "origin_history": "Cultivated in South Asia for over 4,000 years."
+  },
+  "Pineapple": {
+    "image": "../static/img/fruits/pineapple.jpg",
+    "vitamin_c": "47mg",
+    "fat_content": "0.1g",
+    "protein": "0.5g",
+    "not_good_for": ["None"],
+    "preservation_method": "Refrigerate after cutting",
+    "precautions_on_overdose": "None",
+    "medicinal_properties": ["Digestive aid", "Rich in manganese"],
+    "origin_history": "Native to South America, now cultivated worldwide."
+  },
+  "Watermelon": {
+    "image": "../static/img/fruits/watermelon.jpg",
+    "vitamin_c": "8mg",
+    "fat_content": "0.2g",
+    "protein": "0.6g",
+    "not_good_for": ["Diabetes"],
+    "preservation_method": "Keep refrigerated",
+    "precautions_on_overdose": "None",
+    "medicinal_properties": ["Hydrating", "Contains citrulline"],
+    "origin_history": "Cultivated in Africa for thousands of years."
+  },
+  "Kiwi": {
+    "image": "../static/img/fruits/kiwi.jpg",
+    "vitamin_c": "92mg",
+    "fat_content": "0.5g",
+    "protein": "1.1g",
+    "not_good_for": ["None"],
+    "preservation_method": "Refrigerate",
+    "precautions_on_overdose": "None",
+    "medicinal_properties": ["High in fiber", "Rich in vitamin K"],
+    "origin_history": "Native to China, later introduced to New Zealand."
+  },
+  "Pomegranate": {
+    "image": "../static/img/fruits/pomegranate.jpg",
+    "vitamin_c": "10mg",
+    "fat_content": "0.3g",
+    "protein": "1.7g",
+    "not_good_for": ["None"],
+    "preservation_method": "Refrigerate",
+    "precautions_on_overdose": "None",
+    "medicinal_properties": ["Rich in antioxidants", "Supports heart health"],
+    "origin_history": "Cultivated in the Middle East for thousands of years."
+  },
+  "Blueberry": {
+    "image": "../static/img/fruits/blueberry.jpg",
+    "vitamin_c": "9mg",
+    "fat_content": "0.3g",
+    "protein": "0.7g",
+    "not_good_for": ["None"],
+    "preservation_method": "Refrigerate",
+    "precautions_on_overdose": "None",
+    "medicinal_properties": ["Rich in antioxidants", "Supports brain health"],
+    "origin_history": "Native to North America."
+  },
+  "Papaya": {
+    "image": "../static/img/fruits/papaya.jpg",
+    "vitamin_c": "62mg",
+    "fat_content": "0.4g",
+    "protein": "0.5g",
+    "not_good_for": ["None"],
+    "preservation_method": "Refrigerate after ripening",
+    "precautions_on_overdose": "None",
+    "medicinal_properties": ["Rich in enzymes", "Supports digestion"],
+    "origin_history": "Native to Central America, now grown in tropical regions."
+  },
+  "Guava": {
+    "image": "../static/img/fruits/guava.jpg",
+    "vitamin_c": "228mg",
+    "fat_content": "0.9g",
+    "protein": "2.6g",
+    "not_good_for": ["None"],
+    "preservation_method": "Refrigerate after ripening",
+    "precautions_on_overdose": "None",
+    "medicinal_properties": ["Rich in dietary fiber", "Boosts immune system"],
+    "origin_history": "Native to Central America, cultivated in many tropical regions."
+  },
+  "Dragon-Fruit": {
+    "image": "../static/img/fruits/dragon_fruit.jpg",
+    "vitamin_c": "9mg",
+    "fat_content": "1g",
+    "protein": "3g",
+    "not_good_for": ["None"],
+    "preservation_method": "Refrigerate",
+    "precautions_on_overdose": "None",
+    "medicinal_properties": ["Rich in antioxidants", "Supports digestion"],
+    "origin_history": "Native to Central America, now cultivated in many regions."
+  },
+  "Avocado": {
+    "image": "../static/img/fruits/avocado.jpg",
+    "vitamin_c": "10mg",
+    "fat_content": "14.66g",
+    "protein": "2g",
+    "not_good_for": ["None"],
+    "preservation_method": "Refrigerate after ripening",
+    "precautions_on_overdose": "None",
+    "medicinal_properties": ["Rich in healthy fats", "Supports heart health"],
+    "origin_history": "Native to south-central Mexico."
+  },
+  "Peach": {
+    "image": "../static/img/fruits/peach.jpg",
+    "vitamin_c": "6mg",
+    "fat_content": "0.3g",
+    "protein": "0.9g",
+    "not_good_for": ["None"],
+    "preservation_method": "Refrigerate after ripening",
+    "precautions_on_overdose": "None",
+    "medicinal_properties": ["Rich in antioxidants", "Promotes skin health"],
+    "origin_history": "Native to Northwest China, now cultivated worldwide."
+  },
+  "Apricot": {
+    "image": "../static/img/fruits/apricot.jpg",
+    "vitamin_c": "10mg",
+    "fat_content": "0.4g",
+    "protein": "0.5g",
+    "not_good_for": ["None"],
+    "preservation_method": "Refrigerate after ripening",
+    "precautions_on_overdose": "None",
+    "medicinal_properties": ["Rich in vitamin A", "Supports eye health"],
+    "origin_history": "Believed to have originated in Armenia."
+  },
+  "Coconut": {
+    "image": "../static/img/fruits/coconut.jpg",
+    "vitamin_c": "3mg",
+    "fat_content": "33.49g",
+    "protein": "3.33g",
+    "not_good_for": ["None"],
+    "preservation_method": "Store in a cool, dry place",
+    "precautions_on_overdose": "None",
+    "medicinal_properties": ["Rich in healthy fats", "Hydrating"],
+    "origin_history": "Cultivated in tropical regions worldwide."
+  },
+  "Raspberry": {
+    "image": "../static/img/fruits/raspberry.jpg",
+    "vitamin_c": "32mg",
+    "fat_content": "0.7g",
+    "protein": "1.2g",
+    "not_good_for": ["None"],
+    "preservation_method": "Refrigerate",
+    "precautions_on_overdose": "None",
+    "medicinal_properties": ["Rich in fiber", "Anti-inflammatory"],
+    "origin_history": "Native to Europe and Asia, now grown globally."
+  },
+  "Blackberries": {
+    "image": "../static/img/fruits/blackberries.jpg",
+    "vitamin_c": "21mg",
+    "fat_content": "0.5g",
+    "protein": "2.0g",
+    "not_good_for": ["Allergy to berries"],
+    "preservation_method": "Freeze",
+    "precautions_on_overdose": "No known overdose",
+    "medicinal_properties": ["High in antioxidants", "Source of dietary fiber"],
+    "origin_history": "Blackberries have a long history of cultivation."
+  },
+  "Cherries": {
+    "image": "../static/img/fruits/cherries.jpg",
+    "vitamin_c": "16mg",
+    "fat_content": "0.3g",
+    "protein": "1.0g",
+    "not_good_for": ["Allergy to stone fruits"],
+    "preservation_method": "Refrigerate",
+    "precautions_on_overdose": "May cause digestive upset in large amounts",
+    "medicinal_properties": ["Anti-inflammatory properties"],
+    "origin_history": "Cherries are believed to have originated in Asia Minor."
+  },
+  "Cranberry": {
+    "image": "../static/img/fruits/cranberry.jpg",
+    "vitamin_c": "13mg",
+    "fat_content": "0.4g",
+    "protein": "0.4g",
+    "not_good_for": ["Allergy to berries"],
+    "preservation_method": "Freeze",
+    "precautions_on_overdose": "No known overdose",
+    "medicinal_properties": [
+      "High in antioxidants",
+      "May prevent urinary tract infections"
+    ],
+    "origin_history": "Cranberries are native to North America."
+  },
+  "Blackcurrant": {
+    "image": "../static/img/fruits/blackcurrant.jpg",
+    "vitamin_c": "181mg",
+    "fat_content": "0.4g",
+    "protein": "1.4g",
+    "not_good_for": ["Allergy to berries"],
+    "preservation_method": "Freeze",
+    "precautions_on_overdose": "No known overdose",
+    "medicinal_properties": ["Rich in Vitamin C", "May boost immune system"],
+    "origin_history": "Blackcurrants are native to Europe and Asia."
+  },
+  "Dates": {
+    "image": "../static/img/fruits/dates.jpg",
+    "vitamin_c": "0mg",
+    "fat_content": "0.2g",
+    "protein": "0.2g",
+    "not_good_for": ["Allergy to dates"],
+    "preservation_method": "Room temperature",
+    "precautions_on_overdose": "High in natural sugars, consume in moderation",
+    "medicinal_properties": ["Good source of energy", "Rich in fiber"],
+    "origin_history": "Dates have been cultivated since ancient times."
+  },
+  "Durian": {
+    "image": "../static/img/fruits/durian.jpg",
+    "vitamin_c": "20mg",
+    "fat_content": "5.3g",
+    "protein": "2.2g",
+    "not_good_for": ["Allergy to durian"],
+    "preservation_method": "Room temperature",
+    "precautions_on_overdose": "May cause digestive discomfort in excess",
+    "medicinal_properties": [
+      "Rich in healthy fats",
+      "May have anti-inflammatory effects"
+    ],
+    "origin_history": "Durians are native to Southeast Asia."
+  },
+  "Fig": {
+    "image": "../static/img/fruits/fig.jpg",
+    "vitamin_c": "2mg",
+    "fat_content": "0.3g",
+    "protein": "0.8g",
+    "not_good_for": ["Allergy to figs"],
+    "preservation_method": "Refrigerate",
+    "precautions_on_overdose": "No known overdose",
+    "medicinal_properties": [
+      "Good source of fiber",
+      "May have anti-diabetic properties"
+    ],
+    "origin_history": "Figs have been cultivated since ancient times."
+  },
+  "Gooseberries": {
+    "image": "../static/img/fruits/gooseberries.jpg",
+    "vitamin_c": "46mg",
+    "fat_content": "0.6g",
+    "protein": "1.6g",
+    "not_good_for": ["Allergy to berries"],
+    "preservation_method": "Freeze",
+    "precautions_on_overdose": "No known overdose",
+    "medicinal_properties": ["High in antioxidants", "May aid digestion"],
+    "origin_history": "Gooseberries are native to Europe, western Asia, and northern Africa."
+  },
+  "Grapefruit": {
+    "image": "../static/img/fruits/grapefruit.jpg",
+    "vitamin_c": "31mg",
+    "fat_content": "0.2g",
+    "protein": "0.6g",
+    "not_good_for": ["Interaction with certain medications"],
+    "preservation_method": "Refrigerate",
+    "precautions_on_overdose": "May cause digestive upset in large amounts",
+    "medicinal_properties": ["Rich in antioxidants", "May support weight loss"],
+    "origin_history": "Grapefruits are believed to be a hybrid of pomelo and sweet orange."
+  },
+  "Jackfruit": {
+    "image": "../static/img/fruits/jackfruit.jpg",
+    "vitamin_c": "23mg",
+    "fat_content": "0.3g",
+    "protein": "2.5g",
+    "not_good_for": ["Allergy to jackfruit"],
+    "preservation_method": "Refrigerate",
+    "precautions_on_overdose": "May cause digestive discomfort in excess",
+    "medicinal_properties": ["Good source of energy", "Rich in fiber"],
+    "origin_history": "Jackfruits are believed to have originated in the rainforests of Western Ghats, India."
+  },
+  "Lemon": {
+    "image": "../static/img/fruits/lemon.jpg",
+    "vitamin_c": "53mg",
+    "fat_content": "0.3g",
+    "protein": "1.1g",
+    "not_good_for": ["Allergy to citrus fruits"],
+    "preservation_method": "Room temperature",
+    "precautions_on_overdose": "May cause tooth erosion in excess",
+    "medicinal_properties": ["Rich in vitamin C", "May support weight loss"],
+    "origin_history": "Lemons are believed to have originated in India."
+  },
+  "Lime": {
+    "image": "../static/img/fruits/lime.jpg",
+    "vitamin_c": "30mg",
+    "fat_content": "0.2g",
+    "protein": "0.7g",
+    "not_good_for": ["Allergy to citrus fruits"],
+    "preservation_method": "Room temperature",
+    "precautions_on_overdose": "May cause tooth erosion in excess",
+    "medicinal_properties": ["Rich in vitamin C", "May support weight loss"],
+    "origin_history": "Limes are believed to have originated in Southeast Asia."
+  },
+  "Miracle-fruit": {
+    "image": "../static/img/fruits/miracle-fruit.jpg",
+    "vitamin_c": "9mg",
+    "fat_content": "0.3g",
+    "protein": "0.9g",
+    "not_good_for": ["Individuals with kidney problems"],
+    "preservation_method": "Room temperature",
+    "precautions_on_overdose": "No known overdose",
+    "medicinal_properties": ["May alter taste perception"],
+    "origin_history": "Miracle fruit is native to West Africa."
+  },
+  "Mandarin": {
+    "image": "../static/img/fruits/mandarin.jpg",
+    "vitamin_c": "26mg",
+    "fat_content": "0.3g",
+    "protein": "0.7g",
+    "not_good_for": ["Allergy to citrus fruits"],
+    "preservation_method": "Room temperature",
+    "precautions_on_overdose": "May cause tooth erosion in excess",
+    "medicinal_properties": ["Rich in vitamin C", "May support weight loss"],
+    "origin_history": "Mandarins are native to China."
+  },
+  "Melon": {
+    "image": "../static/img/fruits/melon.jpg",
+    "vitamin_c": "36mg",
+    "fat_content": "0.2g",
+    "protein": "0.9g",
+    "not_good_for": ["Allergy to melons"],
+    "preservation_method": "Refrigerate",
+    "precautions_on_overdose": "No known overdose",
+    "medicinal_properties": ["Hydrating and refreshing"],
+    "origin_history": "Melons are believed to have originated in Africa."
+  },
+  "Mulberry": {
+    "image": "../static/img/fruits/mulberry.jpg",
+    "vitamin_c": "36mg",
+    "fat_content": "0.4g",
+    "protein": "2.1g",
+    "not_good_for": ["Allergy to berries"],
+    "preservation_method": "Refrigerate",
+    "precautions_on_overdose": "No known overdose",
+    "medicinal_properties": ["Rich in Vitamin C", "May support immune system"],
+    "origin_history": "Mulberries are native to Asia, Europe, and North America."
+  },
+  "Nectarine": {
+    "image": "../static/img/fruits/nectarine.jpg",
+    "vitamin_c": "5.4mg",
+    "fat_content": "0.3g",
+    "protein": "0.9g",
+    "not_good_for": ["Individuals with kidney problems"],
+    "preservation_method": "Room temperature",
+    "precautions_on_overdose": "No known overdose",
+    "medicinal_properties": ["Rich in antioxidants", "May support digestion"],
+    "origin_history": "Nectarines are a variety of peach with a smooth skin."
+  },
+  "Passion-Fruit": {
+    "image": "../static/img/fruits/passion-fruit.jpg",
+    "vitamin_c": "30mg",
+    "fat_content": "0.7g",
+    "protein": "2.2g",
+    "not_good_for": ["Individuals with latex allergy"],
+    "preservation_method": "Room temperature",
+    "precautions_on_overdose": "No known overdose",
+    "medicinal_properties": ["Rich in dietary fiber", "May support digestion"],
+    "origin_history": "Passion fruit is native to South America."
+  },
+  "Pear": {
+    "image": "../static/img/fruits/pear.jpg",
+    "vitamin_c": "4.2mg",
+    "fat_content": "0.1g",
+    "protein": "0.4g",
+    "not_good_for": ["Individuals with latex allergy"],
+    "preservation_method": "Room temperature",
+    "precautions_on_overdose": "No known overdose",
+    "medicinal_properties": [
+      "Rich in dietary fiber",
+      "May support heart health"
+    ],
+    "origin_history": "Pears are native to Europe and Asia."
+  },
+  "Plum": {
+    "image": "../static/img/fruits/plum.jpg",
+    "vitamin_c": "9.5mg",
+    "fat_content": "0.2g",
+    "protein": "0.5g",
+    "not_good_for": ["Individuals with kidney problems"],
+    "preservation_method": "Room temperature",
+    "precautions_on_overdose": "No known overdose",
+    "medicinal_properties": ["Rich in antioxidants", "May support digestion"],
+    "origin_history": "Plums are native to China."
+  },
+  "Custard-apple": {
+    "image": "../static/img/fruits/custard-apple.jpg",
+    "vitamin_c": "20.9mg",
+    "fat_content": "0.5g",
+    "protein": "2.2g",
+    "not_good_for": ["Individuals with latex allergy"],
+    "preservation_method": "Refrigerate",
+    "precautions_on_overdose": "May cause digestive discomfort in excess",
+    "medicinal_properties": ["Rich in antioxidants", "May support digestion"],
+    "origin_history": "Custard apples are native to South America."
+  },
+  "Raspberries": {
+    "image": "../static/img/fruits/raspberries.jpg",
+    "vitamin_c": "26.2mg",
+    "fat_content": "0.7g",
+    "protein": "1.5g",
+    "not_good_for": ["Allergy to berries"],
+    "preservation_method": "Refrigerate",
+    "precautions_on_overdose": "No known overdose",
+    "medicinal_properties": [
+      "May have anti-inflammatory effects",
+      "Rich in antioxidants"
+    ],
+    "origin_history": "Raspberries are native to Europe and Asia."
+  },
+  "Tangerine": {
+    "image": "../static/img/fruits/tangerine.jpg",
+    "vitamin_c": "26.7mg",
+    "fat_content": "0.3g",
+    "protein": "0.7g",
+    "not_good_for": ["Allergy to citrus fruits"],
+    "preservation_method": "Room temperature",
+    "precautions_on_overdose": "May cause stomach discomfort in excess",
+    "medicinal_properties": [
+      "Rich in antioxidants",
+      "May support immune health"
+    ],
+    "origin_history": "Tangerines are believed to have originated in Southeast Asia."
+  },
+  "Soursop": {
+    "image": "../static/img/fruits/soursop.jpg",
+    "vitamin_c": "20.6mg",
+    "fat_content": "0.3g",
+    "protein": "2.3g",
+    "not_good_for": ["Allergy to soursop"],
+    "preservation_method": "Refrigerate",
+    "precautions_on_overdose": "May cause digestive discomfort in excess",
+    "medicinal_properties": [
+      "May have anti-cancer properties",
+      "Rich in vitamin C"
+    ],
+    "origin_history": "Soursop is native to the tropical regions of the Americas."
+  },
+  "Star-Fruit": {
+    "image": "../static/img/fruits/star-fruit.jpg",
+    "vitamin_c": "34.4mg",
+    "fat_content": "0.3g",
+    "protein": "1.0g",
+    "not_good_for": ["Allergy to star fruit"],
+    "preservation_method": "Room temperature",
+    "precautions_on_overdose": "May cause kidney problems in excess",
+    "medicinal_properties": ["May support digestion", "Rich in antioxidants"],
+    "origin_history": "Star fruit is native to Southeast Asia."
+  }
+}

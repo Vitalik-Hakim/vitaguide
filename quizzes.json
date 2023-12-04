@@ -1,0 +1,303 @@
+{
+  "Vitamin-C": [
+    {
+      "id": 1,
+      "question": "Which of the following is a key benefit of Vitamin C?",
+      "options": [
+        "Improved vision",
+        "Stronger bones",
+        "Enhanced immune function"
+      ],
+      "correct_option": "Enhanced immune function"
+    },
+    {
+      "id": 2,
+      "question": "What is the recommended daily intake of Vitamin C for adults?",
+      "options": ["50 mg", "100 mg", "500 mg"],
+      "correct_option": "100 mg"
+    },
+    {
+      "id": 3,
+      "question": "Which fruits are rich sources of Vitamin C?",
+      "options": ["Bananas", "Oranges", "Grapes"],
+      "correct_option": "Oranges"
+    },
+    {
+      "id": 4,
+      "question": "Vitamin C is essential for the synthesis of which protein in the body?",
+      "options": ["Collagen", "Hemoglobin", "Insulin"],
+      "correct_option": "Collagen"
+    },
+    {
+      "id": 5,
+      "question": "What role does Vitamin C play in wound healing?",
+      "options": ["Anti-inflammatory", "Antibiotic", "Collagen synthesis"],
+      "correct_option": "Collagen synthesis"
+    },
+    {
+      "id": 6,
+      "question": "Which of the following is a symptom of Vitamin C deficiency?",
+      "options": ["Scurvy", "Rickets", "Anemia"],
+      "correct_option": "Scurvy"
+    },
+    {
+      "id": 7,
+      "question": "What is the primary antioxidant property of Vitamin C?",
+      "options": [
+        "Vitamin E regeneration",
+        "Reducing cholesterol",
+        "Promoting digestion"
+      ],
+      "correct_option": "Vitamin E regeneration"
+    },
+    {
+      "id": 8,
+      "question": "Which form of Vitamin C is commonly found in supplements?",
+      "options": ["Ascorbic acid", "Citric acid", "Lactic acid"],
+      "correct_option": "Ascorbic acid"
+    },
+    {
+      "id": 9,
+      "question": "What effect does Vitamin C have on iron absorption?",
+      "options": ["Increases", "Decreases", "No effect"],
+      "correct_option": "Increases"
+    },
+    {
+      "id": 10,
+      "question": "Which of the following is a food source high in Vitamin C?",
+      "options": ["Steak", "Broccoli", "Potatoes"],
+      "correct_option": "Broccoli"
+    }
+  ],
+  "Ohmic-Heating": [
+    {
+      "id": 1,
+      "question": "What is the primary principle behind Ohmic heating?",
+      "options": ["Radiation", "Conduction", "Induction", "Resistance heating"],
+      "correct_option": "Resistance heating"
+    },
+    {
+      "id": 2,
+      "question": "In Ohmic heating, electrical energy is converted into what type of energy?",
+      "options": [
+        "Mechanical energy",
+        "Thermal energy",
+        "Chemical energy",
+        "Potential energy"
+      ],
+      "correct_option": "Thermal energy"
+    },
+    {
+      "id": 3,
+      "question": "What is the role of electrodes in Ohmic heating?",
+      "options": [
+        "Generate electricity",
+        "Enhance flavor",
+        "Conduct electrical current",
+        "Prevent overheating"
+      ],
+      "correct_option": "Conduct electrical current"
+    },
+    {
+      "id": 4,
+      "question": "Which of the following foods can be processed using Ohmic heating?",
+      "options": ["Ice cream", "Crispy chips", "Fresh fruits", "Milk products"],
+      "correct_option": "Milk products"
+    },
+    {
+      "id": 5,
+      "question": "Ohmic heating is known for preserving the __________ of food.",
+      "options": ["Color", "Texture", "Aroma", "All of the above"],
+      "correct_option": "All of the above"
+    },
+    {
+      "id": 6,
+      "question": "What is the advantage of Ohmic heating in comparison to traditional heating methods?",
+      "options": [
+        "Slower processing time",
+        "Uniform heating",
+        "Lower cost",
+        "Increased nutrient loss"
+      ],
+      "correct_option": "Uniform heating"
+    },
+    {
+      "id": 7,
+      "question": "Which type of electrical current is commonly used in Ohmic heating?",
+      "options": [
+        "Alternating current (AC)",
+        "Direct current (DC)",
+        "Static electricity",
+        "Hydraulic current"
+      ],
+      "correct_option": "Alternating current (AC)"
+    },
+    {
+      "id": 8,
+      "question": "What safety measure is important during Ohmic heating processes?",
+      "options": [
+        "Wearing gloves",
+        "Ensuring proper insulation",
+        "Using metal utensils",
+        "Increasing voltage"
+      ],
+      "correct_option": "Ensuring proper insulation"
+    },
+    {
+      "id": 9,
+      "question": "Which factor contributes to the efficiency of Ohmic heating?",
+      "options": [
+        "Low resistance",
+        "Decreased voltage",
+        "Shorter processing time",
+        "Reduced conductivity"
+      ],
+      "correct_option": "Low resistance"
+    },
+    {
+      "id": 10,
+      "question": "Ohmic heating is often used in the production of __________.",
+      "options": [
+        "Frozen desserts",
+        "Dehydrated snacks",
+        "Canned beverages",
+        "Raw vegetables"
+      ],
+      "correct_option": "Canned beverages"
+    }
+  ],
+  "Vitamin-D": [
+    {
+      "id": 1,
+      "question": "What is the primary source of natural vitamin D?",
+      "options": ["Fruits", "Vegetables", "Sunlight", "Meat"],
+      "correct_option": "Sunlight"
+    },
+    {
+      "id": 2,
+      "question": "Which of the following is a role of vitamin D in the body?",
+      "options": [
+        "Blood clotting",
+        "Bone health",
+        "Vitamin C synthesis",
+        "Oxygen transport"
+      ],
+      "correct_option": "Bone health"
+    },
+    {
+      "id": 3,
+      "question": "In what form is vitamin D synthesized in the skin?",
+      "options": ["Vitamin D1", "Vitamin D2", "Vitamin D3", "Vitamin D4"],
+      "correct_option": "Vitamin D3"
+    },
+    {
+      "id": 4,
+      "question": "What is the recommended daily intake of vitamin D for adults?",
+      "options": ["50 IU", "200 IU", "600 IU", "1000 IU"],
+      "correct_option": "600 IU"
+    },
+    {
+      "id": 5,
+      "question": "Vitamin D deficiency is associated with which condition?",
+      "options": ["Scurvy", "Rickets", "Keratosis", "Anemia"],
+      "correct_option": "Rickets"
+    },
+    {
+      "id": 6,
+      "question": "Which food is a good source of vitamin D?",
+      "options": ["Spinach", "Salmon", "Bananas", "Almonds"],
+      "correct_option": "Salmon"
+    },
+    {
+      "id": 7,
+      "question": "What is the nickname for vitamin D due to its ability to be synthesized in the skin?",
+      "options": [
+        "Sunshine vitamin",
+        "Energy vitamin",
+        "Bone booster",
+        "Skin protector"
+      ],
+      "correct_option": "Sunshine vitamin"
+    },
+    {
+      "id": 8,
+      "question": "Which season allows for increased natural synthesis of vitamin D in the skin?",
+      "options": ["Winter", "Spring", "Summer", "Autumn"],
+      "correct_option": "Summer"
+    },
+    {
+      "id": 9,
+      "question": "Vitamin D plays a role in regulating the levels of which mineral in the body?",
+      "options": ["Calcium", "Iron", "Magnesium", "Potassium"],
+      "correct_option": "Calcium"
+    },
+    {
+      "id": 10,
+      "question": "Which population is at a higher risk of vitamin D deficiency?",
+      "options": ["Children", "Elderly", "Athletes", "Vegetarians"],
+      "correct_option": "Elderly"
+    }
+  ],
+  "Fruits-General-Quiz": [
+    {
+      "id": 1,
+      "question": "Which fruit is known for having one of the highest vitamin C content?",
+      "options": ["Banana", "Kiwi", "Watermelon", "Mango"],
+      "correct_answer": "Kiwi"
+    },
+    {
+      "id": 2,
+      "question": "Which citrus fruit is rich in vitamin C and often used to prevent scurvy?",
+      "options": ["Lemon", "Orange", "Grapefruit", "Pineapple"],
+      "correct_answer": "Lemon"
+    },
+    {
+      "id": 3,
+      "question": "What berry is known for its antioxidant properties and high vitamin C content?",
+      "options": ["Blueberry", "Strawberry", "Raspberry", "Blackberry"],
+      "correct_answer": "Strawberry"
+    },
+    {
+      "id": 4,
+      "question": "Which tropical fruit is a good source of both vitamin C and fiber?",
+      "options": ["Papaya", "Coconut", "Passion Fruit", "Pineapple"],
+      "correct_answer": "Papaya"
+    },
+    {
+      "id": 5,
+      "question": "What small red fruit is known for its tart flavor and vitamin C content?",
+      "options": ["Cherry", "Cranberry", "Raspberry", "Currant"],
+      "correct_answer": "Cranberry"
+    },
+    {
+      "id": 6,
+      "question": "Which stone fruit is rich in vitamin C and has a fuzzy skin?",
+      "options": ["Peach", "Plum", "Apricot", "Nectarine"],
+      "correct_answer": "Peach"
+    },
+    {
+      "id": 7,
+      "question": "What tropical fruit has a spiky outer shell and is a good source of vitamin C?",
+      "options": ["Durian", "Jackfruit", "Lychee", "Guava"],
+      "correct_answer": "Guava"
+    },
+    {
+      "id": 8,
+      "question": "Which green fruit is known for its creamy texture and vitamin C content?",
+      "options": ["Avocado", "Kiwi", "Green Apple", "Lime"],
+      "correct_answer": "Kiwi"
+    },
+    {
+      "id": 9,
+      "question": "What orange fruit has a sweet and tangy flavor and is high in vitamin C?",
+      "options": ["Mandarin", "Clementine", "Tangerine", "Grapefruit"],
+      "correct_answer": "Tangerine"
+    },
+    {
+      "id": 10,
+      "question": "Which exotic fruit is known for its pink interior and vitamin C richness?",
+      "options": ["Dragon Fruit", "Passion Fruit", "Star Fruit", "Mango"],
+      "correct_answer": "Dragon Fruit"
+    }
+  ]
+}

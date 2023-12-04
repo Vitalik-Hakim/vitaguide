@@ -1,0 +1,222 @@
+{
+  "Apple": {
+    "image": "https://example.com/apple.jpg",
+    "vitamin_c": "30mg",
+    "fat_content": "0.2g",
+    "protein": "0.5g",
+    "not_good_for": ["Diabetes"],
+    "preservation_method": "Refrigerate",
+    "precautions_on_overdose": "10 is an overdose",
+    "medicinal_properties": ["Rich in antioxidants", "Promotes heart health"],
+    "origin_history": "Originally from Central Asia, cultivated worldwide."
+  },
+  "Banana": {
+    "image": "https://example.com/banana.jpg",
+    "vitamin_c": "10mg",
+    "fat_content": "0.3g",
+    "protein": "1.3g",
+    "not_good_for": ["None"],
+    "preservation_method": "Keep at room temperature",
+    "precautions_on_overdose": "None",
+    "medicinal_properties": ["Good source of potassium", "Aids digestion"],
+    "origin_history": "Indigenous to Southeast Asia."
+  },
+  "Orange": {
+    "image": "https://example.com/orange.jpg",
+    "vitamin_c": "60mg",
+    "fat_content": "0.2g",
+    "protein": "1g",
+    "not_good_for": ["None"],
+    "preservation_method": "Refrigerate",
+    "precautions_on_overdose": "None",
+    "medicinal_properties": ["High in vitamin C", "Boosts immune system"],
+    "origin_history": "Native to Southeast Asia."
+  },
+  "Grapes": {
+    "image": "https://example.com/grapes.jpg",
+    "vitamin_c": "2mg",
+    "fat_content": "0.2g",
+    "protein": "0.6g",
+    "not_good_for": ["None"],
+    "preservation_method": "Refrigerate",
+    "precautions_on_overdose": "None",
+    "medicinal_properties": ["Rich in antioxidants", "Promotes heart health"],
+    "origin_history": "Cultivated since ancient times."
+  },
+  "Strawberry": {
+    "image": "https://example.com/strawberry.jpg",
+    "vitamin_c": "58mg",
+    "fat_content": "0.4g",
+    "protein": "0.7g",
+    "not_good_for": ["None"],
+    "preservation_method": "Refrigerate",
+    "precautions_on_overdose": "None",
+    "medicinal_properties": ["Rich in antioxidants", "Promotes skin health"],
+    "origin_history": "Cultivated in Europe since the 18th century."
+  },
+  "Mango": {
+    "image": "https://example.com/mango.jpg",
+    "vitamin_c": "36mg",
+    "fat_content": "0.6g",
+    "protein": "0.8g",
+    "not_good_for": ["None"],
+    "preservation_method": "Ripen at room temperature",
+    "precautions_on_overdose": "None",
+    "medicinal_properties": ["Rich in vitamin A", "Supports eye health"],
+    "origin_history": "Cultivated in South Asia for over 4,000 years."
+  },
+  "Pineapple": {
+    "image": "https://example.com/pineapple.jpg",
+    "vitamin_c": "47mg",
+    "fat_content": "0.1g",
+    "protein": "0.5g",
+    "not_good_for": ["None"],
+    "preservation_method": "Refrigerate after cutting",
+    "precautions_on_overdose": "None",
+    "medicinal_properties": ["Digestive aid", "Rich in manganese"],
+    "origin_history": "Native to South America, now cultivated worldwide."
+  },
+  "Watermelon": {
+    "image": "https://example.com/watermelon.jpg",
+    "vitamin_c": "8mg",
+    "fat_content": "0.2g",
+    "protein": "0.6g",
+    "not_good_for": ["Diabetes"],
+    "preservation_method": "Keep refrigerated",
+    "precautions_on_overdose": "None",
+    "medicinal_properties": ["Hydrating", "Contains citrulline"],
+    "origin_history": "Cultivated in Africa for thousands of years."
+  },
+  "Kiwi": {
+    "image": "https://example.com/kiwi.jpg",
+    "vitamin_c": "92mg",
+    "fat_content": "0.5g",
+    "protein": "1.1g",
+    "not_good_for": ["None"],
+    "preservation_method": "Refrigerate",
+    "precautions_on_overdose": "None",
+    "medicinal_properties": ["High in fiber", "Rich in vitamin K"],
+    "origin_history": "Native to China, later introduced to New Zealand."
+  },
+  "Pomegranate": {
+    "image": "https://example.com/pomegranate.jpg",
+    "vitamin_c": "10mg",
+    "fat_content": "0.3g",
+    "protein": "1.7g",
+    "not_good_for": ["None"],
+    "preservation_method": "Refrigerate",
+    "precautions_on_overdose": "None",
+    "medicinal_properties": ["Rich in antioxidants", "Supports heart health"],
+    "origin_history": "Cultivated in the Middle East for thousands of years."
+  },
+  "Cherry": {
+    "image": "https://example.com/cherry.jpg",
+    "vitamin_c": "7mg",
+    "fat_content": "0.3g",
+    "protein": "1.1g",
+    "not_good_for": ["None"],
+    "preservation_method": "Refrigerate",
+    "precautions_on_overdose": "None",
+    "medicinal_properties": ["Anti-inflammatory", "Supports sleep"],
+    "origin_history": "Cultivated in Europe since ancient times."
+  },
+  "Blueberry": {
+    "image": "https://example.com/blueberry.jpg",
+    "vitamin_c": "9mg",
+    "fat_content": "0.3g",
+    "protein": "0.7g",
+    "not_good_for": ["None"],
+    "preservation_method": "Refrigerate",
+    "precautions_on_overdose": "None",
+    "medicinal_properties": ["Rich in antioxidants", "Supports brain health"],
+    "origin_history": "Native to North America."
+  },
+  "Papaya": {
+    "image": "https://example.com/papaya.jpg",
+    "vitamin_c": "62mg",
+    "fat_content": "0.4g",
+    "protein": "0.5g",
+    "not_good_for": ["None"],
+    "preservation_method": "Refrigerate after ripening",
+    "precautions_on_overdose": "None",
+    "medicinal_properties": ["Rich in enzymes", "Supports digestion"],
+    "origin_history": "Native to Central America, now grown in tropical regions."
+  },
+  "Guava": {
+    "image": "https://example.com/guava.jpg",
+    "vitamin_c": "228mg",
+    "fat_content": "0.9g",
+    "protein": "2.6g",
+    "not_good_for": ["None"],
+    "preservation_method": "Refrigerate after ripening",
+    "precautions_on_overdose": "None",
+    "medicinal_properties": ["Rich in dietary fiber", "Boosts immune system"],
+    "origin_history": "Native to Central America, cultivated in many tropical regions."
+  },
+  "Dragon Fruit": {
+    "image": "https://example.com/dragon_fruit.jpg",
+    "vitamin_c": "9mg",
+    "fat_content": "1g",
+    "protein": "3g",
+    "not_good_for": ["None"],
+    "preservation_method": "Refrigerate",
+    "precautions_on_overdose": "None",
+    "medicinal_properties": ["Rich in antioxidants", "Supports digestion"],
+    "origin_history": "Native to Central America, now cultivated in many regions."
+  },
+  "Avocado": {
+    "image": "https://example.com/avocado.jpg",
+    "vitamin_c": "10mg",
+    "fat_content": "14.66g",
+    "protein": "2g",
+    "not_good_for": ["None"],
+    "preservation_method": "Refrigerate after ripening",
+    "precautions_on_overdose": "None",
+    "medicinal_properties": ["Rich in healthy fats", "Supports heart health"],
+    "origin_history": "Native to south-central Mexico."
+  },
+  "Peach": {
+    "image": "https://example.com/peach.jpg",
+    "vitamin_c": "6mg",
+    "fat_content": "0.3g",
+    "protein": "0.9g",
+    "not_good_for": ["None"],
+    "preservation_method": "Refrigerate after ripening",
+    "precautions_on_overdose": "None",
+    "medicinal_properties": ["Rich in antioxidants", "Promotes skin health"],
+    "origin_history": "Native to Northwest China, now cultivated worldwide."
+  },
+  "Apricot": {
+    "image": "https://example.com/apricot.jpg",
+    "vitamin_c": "10mg",
+    "fat_content": "0.4g",
+    "protein": "0.5g",
+    "not_good_for": ["None"],
+    "preservation_method": "Refrigerate after ripening",
+    "precautions_on_overdose": "None",
+    "medicinal_properties": ["Rich in vitamin A", "Supports eye health"],
+    "origin_history": "Believed to have originated in Armenia."
+  },
+  "Coconut": {
+    "image": "https://example.com/coconut.jpg",
+    "vitamin_c": "3mg",
+    "fat_content": "33.49g",
+    "protein": "3.33g",
+    "not_good_for": ["None"],
+    "preservation_method": "Store in a cool, dry place",
+    "precautions_on_overdose": "None",
+    "medicinal_properties": ["Rich in healthy fats", "Hydrating"],
+    "origin_history": "Cultivated in tropical regions worldwide."
+  },
+  "Raspberry": {
+    "image": "https://example.com/raspberry.jpg",
+    "vitamin_c": "32mg",
+    "fat_content": "0.7g",
+    "protein": "1.2g",
+    "not_good_for": ["None"],
+    "preservation_method": "Refrigerate",
+    "precautions_on_overdose": "None",
+    "medicinal_properties": ["Rich in fiber", "Anti-inflammatory"],
+    "origin_history": "Native to Europe and Asia, now grown globally."
+  }
+}

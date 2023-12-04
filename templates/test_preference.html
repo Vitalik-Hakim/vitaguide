@@ -1,0 +1,56 @@
+{% extends 'base.html' %} {% block content %}
+<form id="preferencesForm">
+  <label for="likes">Likes:</label>
+  <input type="text" id="likes" name="likes" placeholder="Enter likes" />
+
+  <label for="allergies">Allergies:</label>
+  <input
+    type="text"
+    id="allergies"
+    name="allergies"
+    placeholder="Enter allergies"
+  />
+
+  <button type="button" onclick="submitPreferences()">
+    Submit Preferences
+  </button>
+</form>
+
+<h1>User Id: {{ current_user.id}}</h1>
+
+<script>
+  function submitPreferences() {
+    // Get user input from the form
+    const likes = document
+      .getElementById("likes")
+      .value.split(",")
+      .map((item) => item.trim());
+    const allergies = document
+      .getElementById("allergies")
+      .value.split(",")
+      .map((item) => item.trim());
+
+    // Create an object with user preferences
+    const userPreferences = {
+      likes: likes,
+      allergies: allergies,
+    };
+    console.log(userPreferences);
+    // Send API request to the backend
+    fetch("/setPreferences", {
+      method: "POST",
+      headers: {
+        "Content-Type": "application/json",
+      },
+      body: JSON.stringify({ userPreferences }),
+    })
+      .then((response) => response.json())
+      .then((data) => {
+        console.log("Backend response:", data);
+      })
+      .catch((error) => {
+        console.error("Error sending preferences:", error);
+      });
+  }
+</script>
+{% endblock %}

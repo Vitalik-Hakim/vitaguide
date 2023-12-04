@@ -1,0 +1,110 @@
+{
+  "Watermelon": {
+    "image_link": "../static/img/fruits/watermelon.jpg",
+    "name": "Watermelon",
+    "vitamin_c": "8mg",
+    "fat_content": "0.2g",
+    "protein": "0.6g",
+    "not_good_for": ["Diabetes"],
+    "preservation_method": "Keep refrigerated",
+    "precautions_on_overdose": "None",
+    "medicinal_properties": ["Hydrating", " Contains citrulline"],
+    "history": "Cultivated in Africa for thousands of years."
+  },
+  "Strawberry": {
+    "image_link": "../static/img/fruits/strawberry.jpg",
+    "name": "Strawberry",
+    "vitamin_c": "58mg",
+    "fat_content": "0.4g",
+    "protein": "0.7g",
+    "not_good_for": ["None"],
+    "preservation_method": "Refrigerate",
+    "precautions_on_overdose": "None",
+    "medicinal_properties": ["Rich in antioxidants", " Promotes skin health"],
+    "history": "Cultivated in Europe since the 18th century."
+  },
+  "Kiwi": {
+    "image_link": "../static/img/fruits/kiwi.jpg",
+    "name": "Kiwi",
+    "vitamin_c": "92mg",
+    "fat_content": "0.5g",
+    "protein": "1.1g",
+    "not_good_for": ["None"],
+    "preservation_method": "Refrigerate",
+    "precautions_on_overdose": "None",
+    "medicinal_properties": ["High in fiber", " Rich in vitamin K"],
+    "history": "Native to China, later introduced to New Zealand."
+  },
+  "Apple": {
+    "image_link": "../static/img/fruits/apple.jpg",
+    "name": "Apple",
+    "vitamin_c": "30mg",
+    "fat_content": "0.2g",
+    "protein": "0.5g",
+    "not_good_for": ["Diabetes"],
+    "preservation_method": "Refrigerate",
+    "precautions_on_overdose": "10 is an overdose",
+    "medicinal_properties": ["Rich in antioxidants", " Promotes heart health"],
+    "history": "Originally from Central Asia, cultivated worldwide."
+  },
+  "Pineapple": {
+    "image_link": "../static/img/fruits/pineapple.jpg",
+    "name": "Pineapple",
+    "vitamin_c": "47mg",
+    "fat_content": "0.1g",
+    "protein": "0.5g",
+    "not_good_for": ["None"],
+    "preservation_method": "Refrigerate after cutting",
+    "precautions_on_overdose": "None",
+    "medicinal_properties": ["Digestive aid", " Rich in manganese"],
+    "history": "Native to South America, now cultivated worldwide."
+  },
+  "Pomegranate": {
+    "image_link": "../static/img/fruits/pomegranate.jpg",
+    "name": "Pomegranate",
+    "vitamin_c": "10mg",
+    "fat_content": "0.3g",
+    "protein": "1.7g",
+    "not_good_for": ["None"],
+    "preservation_method": "Refrigerate",
+    "precautions_on_overdose": "None",
+    "medicinal_properties": ["Rich in antioxidants", " Supports heart health"],
+    "history": "Cultivated in the Middle East for thousands of years."
+  },
+  "Grapes": {
+    "image_link": "../static/img/fruits/grapes.jpg",
+    "name": "Grapes",
+    "vitamin_c": "2mg",
+    "fat_content": "0.2g",
+    "protein": "0.6g",
+    "not_good_for": ["None"],
+    "preservation_method": "Refrigerate",
+    "precautions_on_overdose": "None",
+    "medicinal_properties": ["Rich in antioxidants", " Promotes heart health"],
+    "history": "Cultivated since ancient times."
+  },
+  "Mango": {
+    "image_link": "../static/img/fruits/mango.jpg",
+    "name": "Mango",
+    "vitamin_c": "36mg",
+    "fat_content": "0.6g",
+    "protein": "0.8g",
+    "not_good_for": ["None"],
+    "preservation_method": "Ripen at room temperature",
+    "precautions_on_overdose": "None",
+    "medicinal_properties": ["Rich in vitamin A", " Supports eye health"],
+    "history": "Cultivated in South Asia for over 4,000 years."
+  },
+  "Orange": {
+    "image_link": "../static/img/fruits/orange.jpg",
+    "name": "Orange",
+    "vitamin_c": "60mg",
+    "fat_content": "0.2g",
+    "protein": "1g",
+    "not_good_for": ["None"],
+    "preservation_method": "Refrigerate",
+    "precautions_on_overdose": "None",
+    "medicinal_properties": ["High in vitamin C", " Boosts immune system"],
+    "history": "Native to Southeast Asia."
+  }
+}

@@ -1,0 +1,65 @@
+<!-- dashboard.html -->
+
+{% extends 'base.html' %} {% block content %}
+
+<link
+  rel="stylesheet"
+  href="{{ url_for('static', filename='css/dashboard.css') }}"
+/>
+<nav class="menu-items-wrapper navbar">
+  <a class="navbar-logo" href="#">
+    <img src="../static/img/vitaguide.svg" alt="logo" />
+  </a>
+  <ul class="links">
+    <nav class="menu-items-wrapper navbar style-green">
+      <ul class="links">
+        <li class="menu-item"><a href="/dashboard">Dashboard</a></li>
+        <li class="menu-item active"><a href="/myhealth">My Health</a></li>
+        <li class="menu-item"><a href="/mynutrition">My Nutrition</a></li>
+        <li class="menu-item"><a href="/tracking">Vitamin Tracking</a></li>
+        <li class="menu-item"><a href="/quizzes">Fun Quizzes</a></li>
+        <li class="menu-item">
+          <a href="#">Streak⚡{{ current_user.user_streak}}</a>
+        </li>
+        <li class="menu-item">
+          <a href="#"
+            ><div class="dropdown-wrapper">
+              <!-- a button to toggle show/hide of dropdown -->
+              <button
+                id="my-dropdown-toggle"
+                class="button style-green dropdown-toggle"
+                aria-expanded="false"
+              >
+                Alerts
+                <span class="my-badge badge style-red edge-circle pulse"
+                  >3</span
+                >
+              </button>
+              <!-- dropdown: in this case a menu -->
+              <ul
+                class="dropdown menu-items-wrapper"
+                aria-labelledby="my-dropdown-toggle"
+              >
+                <li class="menu-item"><a href="#">Alerts</a></li>
+                <li role="separator" class="menu-item separator"></li>
+                <li class="menu-item">
+                  <a href="#">Welcome {{ current_user.first_name}}</a>
+                </li>
+                <li class="menu-item"><a href="/dashboard">Your Fruits</a></li>
+                <li class="menu-item"><a href="#">Keep the Streak!</a></li>
+                <!-- dropdown arrow which is optional -->
+                <li aria-hidden="true"><span class="pointer-arrow"></span></li>
+              </ul>
+            </div>
+          </a>
+        </li>
+        <li class="menu-item">
+          <a href="/profile">{{ current_user.first_name}}'s Profile</a>
+        </li>
+      </ul>
+    </nav>
+  </ul>
+</nav>
+
+<h1>Your health</h1>
+{% endblock %}

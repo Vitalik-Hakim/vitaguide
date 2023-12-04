@@ -1,0 +1,194 @@
+/* Add a viewport meta tag */
+
+/* Responsive font sizes */
+body {
+  font-size: 16px;
+  line-height: 1.5;
+}
+
+@media only screen and (max-width: 600px) {
+  body {
+    font-size: 14px;
+  }
+}
+
+/* Responsive layout */
+.container {
+  width: 80%;
+  margin: 0 auto;
+}
+
+/* Responsive images */
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+/* Mobile-friendly navigation example */
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.nav-item {
+  margin: 0 10px;
+}
+
+@media only screen and (max-width: 600px) {
+  .navbar {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .nav-item {
+    margin: 10px 0;
+  }
+}
+
+
+
+h1,
+h3 {
+  color: #1cb0fc; /* Duolingo green */
+  text-align: center; /* Center the text */
+  margin-bottom: 20px; /* Add some bottom margin */
+  padding: 10px; /* Add padding */
+}
+
+.card {
+  position: relative;
+  width: 100px; /* Adjust width as needed */
+  height: 200px; /* Make it a square */
+  background: #ffffff;
+  border-radius: 20px;
+  overflow: hidden;
+  margin: 5px; /* Add margin between cards */
+  cursor: pointer;
+}
+
+.card::before {
+  content: "";
+  position: absolute;
+  top: -50%;
+  width: 100%;
+  height: 100%;
+  transition: 0.5s;
+}
+
+.card:hover::before {
+  top: -60%;
+}
+
+.card::after {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  font-weight: 600;
+  font-size: 8em;
+  color: rgba(0, 0, 0, 0.1);
+}
+
+.card .imgBx {
+  position: relative;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+  z-index: 1;
+}
+
+.card .imgBx img {
+  max-width: 60%;
+  transition: 0.5s;
+}
+
+.card:hover .imgBx img {
+  max-width: 50%;
+}
+
+/* dashboard.css */
+
+/* ... (your existing styles) ... */
+
+.card-grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr); /* Four equal columns */
+  gap: 7px; /* Adjust as needed for the spacing between cards */
+  justify-content: space-around; /* Adjust as needed */
+}
+
+/* dashboard.css */
+
+/* ... (your existing styles) ... */
+
+.additional-info-container {
+  display: flex;
+  justify-content: space-around; /* Adjust as needed */
+  align-items: center;
+  margin-top: 20px; /* Add space between cards and additional information */
+}
+
+.info-card {
+  text-align: center;
+}
+
+.info-card p {
+  font-size: 14px;
+  color: #333;
+  margin: 5px 0;
+}
+
+.favorite-btn {
+  padding: 10px 20px;
+  background-color: #1cb0fc;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.favorite-btn:hover {
+  background-color: #156ba3; /* Darker blue on hover */
+}
+
+/* dashboard.css */
+
+/* ... (your existing styles) ... */
+
+.lesson-grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr); /* Three equal columns */
+  gap: 10px; /* Adjust as needed for the spacing between lessons */
+  justify-content: space-around; /* Adjust as needed */
+}
+
+.lesson-card {
+  background-color: #ffffff;
+  border-radius: 20px;
+  overflow: hidden;
+  padding: 20px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.lesson-card h3 {
+  font-size: 18px;
+  color: #333;
+  margin: 0;
+}
+
+.start-lesson-btn {
+  padding: 10px 20px;
+  background-color: #1cb0fc;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.start-lesson-btn:hover {
+  background-color: #156ba3; /* Darker blue on hover */
+}

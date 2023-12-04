@@ -1,0 +1,36 @@
+.quiz-container {
+  max-width: 600px;
+  margin: auto;
+  padding: 20px;
+  background-color: #f5f5f5;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.question {
+  margin-bottom: 20px;
+}
+
+.option {
+  display: flex;
+  align-items: center;
+  padding: 10px;
+  margin: 8px 0;
+  background-color: #fff;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.option:hover {
+  background-color: #f0f0f0;
+}
+
+h1,
+h3 {
+  color: #1cb0fc; /* Duolingo green */
+  text-align: center; /* Center the text */
+  margin-bottom: 20px; /* Add some bottom margin */
+  padding: 10px; /* Add padding */
+}

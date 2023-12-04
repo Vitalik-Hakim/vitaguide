@@ -1,0 +1,18 @@
+{% extends "base.html" %} {% block content %}
+    <link
+      rel="stylesheet"
+      href="{{ url_for('static', filename='css/home.css') }}"
+    />
+  </head>
+  <body>
+    <div id="duolingo-container">
+      <div id="header">VitaGuide</div>
+      <div id="welcome-message">
+        <h1>Welcome to the VitaGuide</h1>
+        <p>Start your journey to a healthier life!</p>
+        <a class="button style-green" href="/login">Start Now</a>
+      </div>
+    </div>
+  </body>
+
+{% endblock %}

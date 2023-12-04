@@ -1,0 +1,122 @@
+{% extends "base.html" %} {% block content %}
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Lets Get to know you!</title>
+    <link rel="stylesheet" href="../static/css/healthform.css" />
+  </head>
+  <body>
+    <!-- partial:index.partial.html -->
+    <h1 id="texthead">Tell us more {{ current_user.first_name }}!</h1>
+    <div class="card-healthform">
+      <div class="card-header">
+        <div class="steps">
+          <div class="step active">
+            <span>Personal Details</span>
+          </div>
+          <div class="step">
+            <span> Allergies</span>
+          </div>
+          <div class="step">
+            <span> Preferences</span>
+          </div>
+          <div class="step">
+            <span> Submit</span>
+          </div>
+        </div>
+      </div>
+      <div id="cardBody" class="card-body">
+        <div class="tabs">
+          <div id="first" class="tab">
+            <h4>Who are you?</h4>
+            <div class="form-group">
+              <div class="input-wrapper">
+                <select
+                  name="gender"
+                  id="gender"
+                  required
+                  class="size-s style-purple-light"
+                >
+                  <option value="Male">Male</option>
+                  <option value="Female">Female 👩</option>
+                </select>
+              </div>
+            </div>
+            <div class="form-group">
+              <div class="input-wrapper">
+                <input
+                  id="age"
+                  type="number"
+                  name="age"
+                  required
+                  placeholder="Age"
+                />
+              </div>
+            </div>
+
+            <div class="form-group">
+              <div class="input-wrapper">
+                <input
+                  id="country"
+                  type="text"
+                  required
+                  name="country"
+                  placeholder="Country"
+                />
+              </div>
+            </div>
+          </div>
+          <div id="second" class="tab">
+            <h3>Any fruit🍇 Allergies we should be aware of?</h3>
+            <div class="input-wrapper is-textarea floating-label">
+              <textarea
+                id="allergies"
+                name="allergies"
+                rows="4"
+                cols="50"
+                placeholder="What do you think?"
+              ></textarea>
+              <label class="form-label" name="allergies" for="allergies"
+                >(Seperate with commas eg Apple, Pawpaw)</label
+              >
+            </div>
+          </div>
+          <div id="third" class="tab">
+            <h3>Any fruits🍎 you really like!?</h3>
+            <div class="input-wrapper is-textarea floating-label">
+              <textarea
+                id="likes"
+                name="likes"
+                rows="4"
+                cols="50"
+                placeholder="What do you think?"
+              ></textarea>
+              <label class="form-label" for="yourname"
+                >(Seperate with commas eg Apple, Pawpaw)</label
+              >
+            </div>
+          </div>
+          <div id="fourth" class="tab">
+            <h3>All done {{ current_user.first_name }}! You can submit!</h3>
+            <div class="fireworks size-3x" aria-hidden="true">
+              <span class="spark"></span>
+              <span class="spark"></span>
+              <span class="spark"></span>
+              <span class="spark"></span>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="card-footer">
+        <button id="prevBtn" onclick="next(-1)">Prev</button>
+        <button id="nextBtn" onclick="next(1)">Next</button>
+      </div>
+    </div>
+    <!-- partial -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="../static/js/healthform.js"></script>
+  </body>
+</html>
+{% endblock %}

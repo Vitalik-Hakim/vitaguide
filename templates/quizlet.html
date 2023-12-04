@@ -1,0 +1,27 @@
+{% extends 'base.html' %} {% block content %}
+<link rel="stylesheet" href="../static/css/quizlet.css" />
+
+<div class="quiz-container">
+  {% with messages = get_flashed_messages(with_categories=true) %} {% if
+  messages %} {% for category, message in messages %}
+  <div class="toast style-green-light">{{ message }}</div>
+
+  {% endfor %} {% endif %} {% endwith %}
+  <h1>{{ quiz_name }}</h1>
+  <form method="POST" action="/submit_quiz/{{ quiz_name }}">
+    {% for question in questions %}
+    <div class="question">
+      <h4>{{ question['question'] }}</h4>
+      {% for option in question['options'] %}
+      <label class="option">
+        <input type="radio" name="{{ question['id'] }}" value="{{ option }}" />
+        <span class="checkmark"></span>
+        {{ option }}
+      </label>
+      {% endfor %}
+    </div>
+    {% endfor %}
+    <button type="submit" class="button style-accent">Submit</button>
+  </form>
+</div>
+{% endblock %}
