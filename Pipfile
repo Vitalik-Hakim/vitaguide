@@ -9,6 +9,7 @@ flask-login = "*"
 flask-sqlalchemy = "*"
 scikit-learn = "*"
 flask-bcrypt = "*"
+gunicorn = "*"
 
 [dev-packages]
 
