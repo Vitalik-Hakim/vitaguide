@@ -64,32 +64,32 @@ class Fruit(db.Model):
     image_link = db.Column(db.Text, nullable=True)
 
 # Add fruits to database
-def add_fruit_to_db():
-    with open('fruit_data.json', 'r') as file:
-        fruit_data = json.load(file)
+# def add_fruit_to_db():
+#     with open('fruit_data.json', 'r') as file:
+#         fruit_data = json.load(file)
 
-    for fruit_name, fruit_details in fruit_data.items():
-        new_fruit = Fruit(
-            name=fruit_name,
-            image_link=fruit_details["image"],
-            vitamin_c=fruit_details["vitamin_c"],
-            fat_content=fruit_details["fat_content"],
-            protein=fruit_details["protein"],
-            not_good_for=", ".join(fruit_details["not_good_for"]),
-            preservation_method=fruit_details["preservation_method"],
-            precautions_on_overdose=fruit_details["precautions_on_overdose"],
-            medicinal_properties=", ".join(fruit_details["medicinal_properties"]),
-            history=fruit_details["origin_history"],
-        )
-        db.session.add(new_fruit)
+#     for fruit_name, fruit_details in fruit_data.items():
+#         new_fruit = Fruit(
+#             name=fruit_name,
+#             image_link=fruit_details["image"],
+#             vitamin_c=fruit_details["vitamin_c"],
+#             fat_content=fruit_details["fat_content"],
+#             protein=fruit_details["protein"],
+#             not_good_for=", ".join(fruit_details["not_good_for"]),
+#             preservation_method=fruit_details["preservation_method"],
+#             precautions_on_overdose=fruit_details["precautions_on_overdose"],
+#             medicinal_properties=", ".join(fruit_details["medicinal_properties"]),
+#             history=fruit_details["origin_history"],
+#         )
+#         db.session.add(new_fruit)
 
-    db.session.commit()
+#     db.session.commit()
 
 
 # Create database tables
 with app.app_context():
     db.create_all()
-    add_fruit_to_db()
+    # add_fruit_to_db()
 
 
 def load_fruit_data(file_path):
