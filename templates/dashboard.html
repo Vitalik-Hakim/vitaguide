@@ -65,7 +65,8 @@
 
 <h1>Welcome {{ current_user.first_name }}!</h1>
 
-<h3>These are the fruits we recommend you eat for your GDA*</h3>
+<h2>These are the fruits we recommend you eat for your GDA*</h2>
+<h3>You can click on the fruit name buttons for more information!</h3>
 {% with messages = get_flashed_messages(with_categories=true) %} {% if messages
 %} {% for category, message in messages %}
 <div class="toast style-green-light">{{ message }}</div>
